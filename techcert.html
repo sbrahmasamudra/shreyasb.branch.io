@@ -30,6 +30,11 @@ var linkData = {
 
 branch.link(linkData, function(err, link) {
   console.log(link);
+  // bind elements
+  document.getElementById('button').onclick = function() {
+    window.open(link || err);
+  };
+  document.getElementById('anchor').href = link || err;
 });
 
 });
