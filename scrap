@@ -1,0 +1,34 @@
+
+04/15 09:54:13: Launching 'app' on Pixel XL API R.
+$ adb shell am start -n "io.branch.branchster/io.branch.branchster.SplashActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+
+I/System.out: TechCert In BAA, instantiated the branch objectio.branch.referral.DeviceInfo@fea11b1
+
+I/BranchSDK: posting to https://api2.branch.io/v1/profile
+I/BranchSDK: Post value = {"identity_id":"778517723104886861","device_fingerprint_id":"778517723071683902","session_id":"779012888312796859","identity":"bf2e0538-246b-4e1c-9970-1e87c90e62a5","hardware_id":"d12b3a9cf229e631","is_hardware_id_real":true,"brand":"Google","model":"sdk_gphone_x86","screen_dpi":560,"screen_height":2392,"screen_width":1440,"wifi":true,"ui_mode":"UI_MODE_TYPE_NORMAL","os":"Android","os_version":29,"country":"US","language":"en","local_ip":"10.0.2.15","metadata":{},"lat_val":0,"instrumentation":{"v1\/profile-qwt":"0"},"sdk":"android5.0.0","branch_key":"key_live_cmLI4oMjUs42mmfAJzfFldljDtbbwzFR"}
+I/BranchSDK: returned {"session_id":"779012888312796859","identity_id":"778517723104886861","link":"https://3wpdx.app.link/?%24identity_id=778517723104886861"}
+
+
+
+I/BranchSDK: posting to https://api2.branch.io/v1/open
+I/BranchSDK: Post value = {"device_fingerprint_id":"778517723071683902","identity_id":"778517723104886861","hardware_id":"d12b3a9cf229e631","is_hardware_id_real":true,"brand":"Google","model":"sdk_gphone_x86","screen_dpi":560,"screen_height":2392,"screen_width":1440,"wifi":true,"ui_mode":"UI_MODE_TYPE_NORMAL","os":"Android","os_version":29,"cpu_type":"i686","build":"sdk_gphone_x86-userdebug R RPP2.200227.014.A1 6348097 dev-keys","locale":"en_US","connection_type":"wifi","device_carrier":"Android","os_version_android":"10","country":"US","language":"en","local_ip":"10.0.2.15","app_version":"1.9.1","facebook_app_link_checked":false,"is_referrable":0,"debug":false,"update":1,"latest_install_time":1586832249591,"latest_update_time":1586969235489,"first_install_time":1586832249591,"previous_update_time":1586967129917,"environment":"FULL_APP","cd":{"mv":"-1","pn":"io.branch.branchster"},"metadata":{},"advertising_ids":{"aaid":"313d2e15-49e5-47ec-830f-6c8218ae109d"},"lat_val":0,"google_advertising_id":"313d2e15-49e5-47ec-830f-6c8218ae109d","instrumentation":{"v1\/profile-brtt":"1430","v1\/open-qwt":"0"},"sdk":"android5.0.0","branch_key":"key_live_cmLI4oMjUs42mmfAJzfFldljDtbbwzFR"}
+
+I/BranchSDK: returned {"session_id":"779014090315863705","identity_id":"778517723104886861","link":"https://3wpdx.app.link?%24identity_id=778517723104886861","identity":"bf2e0538-246b-4e1c-9970-1e87c90e62a5","data":"{\"$og_title\":\"Sam\",\"face_index\":\"0\",\"$publicly_indexable\":\"true\",\"~creation_source\":2,\"$og_description\":\"Sam is a social butterfly. She’s a loyal friend, ready to give you a piggyback ride at a moments notice or greet you with a face lick and wiggle.\",\"+click_timestamp\":1586969553,\"source\":\"android\",\"$identity_id\":\"778517723104886861\",\"~stage\":\"1\",\"$og_image_url\":\"https://s3-us-west-1.amazonaws.com/branchmonsterfactory/320.png\",\"~feature\":\"myMonsterSharefeature1\",\"monster\":\"true\",\"+match_guaranteed\":false,\"~tags\":[\"myMonsterTag1\"],\"$android_deeplink_path\":\"monster/view/\",\"+clicked_branch_link\":true,\"~id\":\"778675612251985242\",\"$one_time_use\":false,\"+is_first_session\":false,\"~channel\":\"Messages\",\"~referring_link\":\"https://3wpdx.app.link/ij1C3YovG5\",\"body_index\":\"2\",\"monster_name\":\"Sam\",\"color_index\":\"3\"}","referring_identity":"bf2e0538-246b-4e1c-9970-1e87c90e62a5","device_fingerprint_id":"778517723071683902"}
+
+
+
+
+I/BranchSDK: posting to https://api2.branch.io/v1/profile
+I/BranchSDK: Post value = {"identity_id":"778517723104886861","device_fingerprint_id":"778517723071683902","session_id":"779014090315863705","identity":"f432208b-0e3b-4305-bdb0-0664f7ad096f","hardware_id":"d12b3a9cf229e631","is_hardware_id_real":true,"brand":"Google","model":"sdk_gphone_x86","screen_dpi":560,"screen_height":2392,"screen_width":1440,"wifi":true,"ui_mode":"UI_MODE_TYPE_NORMAL","os":"Android","os_version":29,"country":"US","language":"en","local_ip":"10.0.2.15","metadata":{},"advertising_ids":{"aaid":"313d2e15-49e5-47ec-830f-6c8218ae109d"},"lat_val":0,"google_advertising_id":"313d2e15-49e5-47ec-830f-6c8218ae109d","instrumentation":{"v1\/profile-qwt":"1935","v1\/open-brtt":"105"},"sdk":"android5.0.0","branch_key":"key_live_cmLI4oMjUs42mmfAJzfFldljDtbbwzFR"}
+I/BranchSDK: returned {"session_id":"779014090315863705","link_click_id":"779013649410814752","referring_data":"{\"$android_deeplink_path\":\"monster/view/\",\"$identity_id\":\"778517723104886861\",\"$og_description\":\"Sam is a social butterfly. She’s a loyal friend, ready to give you a piggyback ride at a moments notice or greet you with a face lick and wiggle.\",\"$og_image_url\":\"https://s3-us-west-1.amazonaws.com/branchmonsterfactory/320.png\",\"$og_title\":\"Sam\",\"$one_time_use\":false,\"$publicly_indexable\":\"true\",\"+click_timestamp\":1586969553,\"body_index\":\"2\",\"color_index\":\"3\",\"face_index\":\"0\",\"monster\":\"true\",\"monster_name\":\"Sam\",\"source\":\"android\",\"~channel\":\"Messages\",\"~creation_source\":2,\"~feature\":\"myMonsterSharefeature1\",\"~id\":\"778675612251985242\",\"~stage\":\"1\",\"~tags\":[\"myMonsterTag1\"]}","identity_id":"778517723104886861","link":"https://3wpdx.app.link/?%24identity_id=778517723104886861"}
+
+
+I/BranchSDK: posting to https://api2.branch.io/v1/url
+I/BranchSDK: Post value = {"identity_id":"778517723104886861","device_fingerprint_id":"778517723071683902","session_id":"779014090315863705","tags":[],"alias":"","channel":"google_search","feature":"Share","stage":"","campaign":"","data":{"$og_title":"Samj","$og_description":"Samj is a social butterfly. She’s a loyal friend, ready to give you a piggyback ride at a moments notice or greet you with a face lick and wiggle.","$og_image_url":"https:\/\/s3-us-west-1.amazonaws.com\/branchmonsterfactory\/320.png","$publicly_indexable":"true","face_index":"0","body_index":"2","monster_name":"Samj","color_index":"3","monster":"true","source":"android"},"hardware_id":"d12b3a9cf229e631","is_hardware_id_real":true,"brand":"Google","model":"sdk_gphone_x86","screen_dpi":560,"screen_height":2392,"screen_width":1440,"wifi":true,"ui_mode":"UI_MODE_TYPE_NORMAL","os":"Android","os_version":29,"country":"US","language":"en","local_ip":"10.0.2.15","sdk":"android5.0.0","branch_key":"key_live_cmLI4oMjUs42mmfAJzfFldljDtbbwzFR"}
+I/BranchSDK: returned {"url":"https://3wpdx.app.link/rRAkrBx3H5"}
+
+I/BranchSDK: Indexing BranchUniversalObject with Google using URL https://3wpdx.app.link/rRAkrBx3H5
+
+
+
+
